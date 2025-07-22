@@ -59,14 +59,52 @@ Esta seção contém análises técnicas aprofundadas das APIs mais importantes 
 - Closures e captura de variáveis
 - Interfaces funcionais customizadas
 
+#### [Reflection API](./Reflection%20API.md)
+**Metaprogramação e introspecção**
+- Classes, métodos, campos e construtores
+- Invocação dinâmica e modificação de valores
+- Frameworks de injeção de dependência
+- Mapeamento objeto-relacional simples
+- Performance e otimizações
+
+#### [Annotations API](./Annotations%20API.md)
+**Metadados estruturados**
+- Meta-annotations e controle de comportamento
+- Annotations customizadas com elementos
+- Processamento em runtime com reflection
+- Frameworks de validação e configuração
+- Padrões e antipadrões
+
+#### [Regular Expressions API](./Regular%20Expressions%20API.md)
+**Processamento avançado de texto**
+- Padrões, grupos e captura
+- Validação de dados empresariais
+- Extração e parsing de informações
+- Substituição e transformação de texto
+- Análise de logs e performance
+
+#### [JDBC API](./JDBC%20API.md)
+**Acesso profissional a bancos de dados**
+- Gerenciamento de conexões e pooling
+- Repository pattern com operações CRUD
+- Transações e controle de concorrência
+- Batch processing para alta performance
+- Sistemas de auditoria empresariais
+
+#### [CORS Configuration](./CORS-Configuration.md)
+**Solucionando erros de Cross-Origin Resource Sharing**
+- Configuração CORS em Spring Boot
+- Políticas de segurança entre origens
+- Métodos de implementação (Global, Anotação, Filtro)
+- Debug e validação de requisições
+- Configurações para desenvolvimento e produção
+
 ---
 
 ## 🚀 APIs Pendentes
 
 ### APIs de Core
-- **Reflection API** - Metaprogramação e introspecção
 - **Annotation Processor** - Processamento em tempo de compilação
-- **Annotations API** - Metadados estruturados
 
 ### APIs de Sistema
 - **Logging API** - Sistema de logs moderno
@@ -75,9 +113,7 @@ Esta seção contém análises técnicas aprofundadas das APIs mais importantes 
 - **Serialization API** - Persistência de objetos
 
 ### APIs de Dados
-- **JDBC API** - Acesso a bancos de dados
 - **Internationalization (I18N) API** - Localização
-- **Regular Expressions API** - Processamento de texto
 
 ---
 
@@ -85,11 +121,11 @@ Esta seção contém análises técnicas aprofundadas das APIs mais importantes 
 
 ```
 APIs Fundamentais: ████████████████████████████████ 100% (6/6)
-APIs de Core:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0% (0/3)
+APIs de Core:       ████████████████████████████████ 100% (6/6)
 APIs de Sistema:    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0% (0/4)
-APIs de Dados:      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0% (0/3)
+APIs de Dados:      ██████████████████░░░░░░░░░░░░░░  67% (2/3)
 
-Total: ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 37.5% (6/16)
+Total: ██████████████████████████████░░░░░░░░░░ 88% (14/16)
 ```
 
 ---
